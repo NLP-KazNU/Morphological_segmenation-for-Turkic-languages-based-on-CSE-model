@@ -1,1 +1,1 @@
-# universal-morphological_segmenation-for-Turkic-languages-based-on-CSE-model
+# universal-morphological_segmenation-for-Turkic-languages
