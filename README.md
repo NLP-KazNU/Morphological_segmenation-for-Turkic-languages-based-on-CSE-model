@@ -10,4 +10,6 @@
 
 #In an agglutinative language, such a sequence of affixes after the stem is called the ending of the word. Tukeyev et al. defined the complete system of endings for the Kazakh language (Tukeyev et al., 2016).
 
+#The algorithm for the morphological segmentation of words will be the same for all languages in the Turkic group. This algorithm includes two stages: 1) splitting of stems and word endings and 2) segmentation of word endings into component suffixes.
+
 
