@@ -18,7 +18,7 @@ All agglutinative languages have strict systems of word formation and rules for 
 The algorithm for the morphological segmentation of words will be the same for all languages in the Turkic group. 
 This algorithm includes two stages: 1) splitting of stems and word endings and 2) segmentation of word endings into component suffixes.
 
-1) The stem and ending of a word can be split using a stemming algorithm, which is also based on the use of the CSE-model of the agglutinative languages in the Turkic group. The proposed algorithm is a lexicon-free stemming algorithm based on the CSE of Kazakh language (Tukeyev & Turganbaeva, 2016). Herein, this algorithm is proposed for all Turkic language group. All the endings in the set of endings of the agglutinative languages in the Turkic group are divided into classes according to their length. The algorithm first looks for an ending of maximum length for the given word, which will be two symbols less than the length of the word; it is assumed that the stem cannot contain less than two symbols. The assumed ending of length (L) is searched for in an appropriate class of endings of L. If the ending is not in this class; then, the length of the assumed ending is decreased by one (accordingly, the assumed ending of the word is decreased by one symbol on the left side, and this symbol is added to the assumed stem of the word), and the received ending is searched for in the appropriate ending class until the stemming procedure is complete or the word has no ending. 
+The stem and ending of a word can be split using a stemming algorithm, which is also based on the use of the CSE-model of the agglutinative languages in the Turkic group. The proposed algorithm is a lexicon-free stemming algorithm based on the CSE of Kazakh language (Tukeyev & Turganbaeva, 2016). Herein, this algorithm is proposed for all Turkic language group. All the endings in the set of endings of the agglutinative languages in the Turkic group are divided into classes according to their length. The algorithm first looks for an ending of maximum length for the given word, which will be two symbols less than the length of the word; it is assumed that the stem cannot contain less than two symbols. The assumed ending of length (L) is searched for in an appropriate class of endings of L. If the ending is not in this class; then, the length of the assumed ending is decreased by one (accordingly, the assumed ending of the word is decreased by one symbol on the left side, and this symbol is added to the assumed stem of the word), and the received ending is searched for in the appropriate ending class until the stemming procedure is complete or the word has no ending. 
 
 # Steps of CSE-model algorithm 
 The steps of the algorithm for splitting the stem and ending are as follows.
@@ -30,8 +30,6 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 3. If L(w) ≤ L(e)max; then, assign to L[e(w)] the value of L[e(w)]max: L[e(w)] = L[e(w)]max.
 
 4. Otherwise, assign to L[e(w)] the value of L(e)max: L[e(w)] = L(e)max.
-
-5. Select ending e(w) of length L[e(w)] for analysed word w.
 
 5. Select ending e(w) of length L[e(w)] for analysed word w.
 
