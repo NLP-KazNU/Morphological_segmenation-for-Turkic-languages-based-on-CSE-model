@@ -41,13 +41,17 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 
 9. End.
 
-# How to use
-
-After downloading 'Morphological_segmenation-for-Turkic-languages-based-on-CSE-model' repository, run python file(.py) in any open command prompt(CMD)
-The output path you can change the file's output path to your own path.
-
 # What you need to use CSE-model
 - ending lists(all possible affixes) (in .xlsx or .txt format)
 - stopwords (words that can not be segmentted or ambiguous bases) (in .txt format)
+
+# How to use
+1. Download repository
+2. Add any Turkic language possible endinds(affixes) list with extension .xlxs or .txt 
+3. Add stopwords dictionary 
+4. Run python file(.py) in any open command prompt(CMD)
+5. Save the result of CSE-segmenatation. The output path you can change the file's output path to your own path.
+
+
 
 
