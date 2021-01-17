@@ -12,4 +12,4 @@
 
 #The algorithm for the morphological segmentation of words will be the same for all languages in the Turkic group. This algorithm includes two stages: 1) splitting of stems and word endings and 2) segmentation of word endings into component suffixes.
 
-
+All agglutinative languages have strict systems of word formation and rules for affix conjunction. Kazakh, Uzbek, and Kyrgyz, like other Turkic languages, are grammatically similar in terms of the types of endings. Having studied the types of endings in Kyrgyz and Uzbek, the CSE-based method created for either of these languages could be applied to the segmentation algorithm based on the CSE-model of the Kazakh language. 
