@@ -13,3 +13,32 @@
 #The algorithm for the morphological segmentation of words will be the same for all languages in the Turkic group. This algorithm includes two stages: 1) splitting of stems and word endings and 2) segmentation of word endings into component suffixes.
 
 All agglutinative languages have strict systems of word formation and rules for affix conjunction. Kazakh, Uzbek, and Kyrgyz, like other Turkic languages, are grammatically similar in terms of the types of endings. Having studied the types of endings in Kyrgyz and Uzbek, the CSE-based method created for either of these languages could be applied to the segmentation algorithm based on the CSE-model of the Kazakh language. 
+
+The algorithm for the morphological segmentation of words will be the same for all languages in the Turkic group. 
+This algorithm includes two stages: 1) splitting of stems and word endings and 2) segmentation of word endings into component suffixes.
+
+1) The stem and ending of a word can be split using a stemming algorithm, which is also based on the use of the CSE-model of the agglutinative languages in the Turkic group. The proposed algorithm is a lexicon-free stemming algorithm based on the CSE of Kazakh language (Tukeyev & Turganbaeva, 2016). Herein, this algorithm is proposed for all Turkic language group. All the endings in the set of endings of the agglutinative languages in the Turkic group are divided into classes according to their length. The algorithm first looks for an ending of maximum length for the given word, which will be two symbols less than the length of the word; it is assumed that the stem cannot contain less than two symbols. The assumed ending of length (L) is searched for in an appropriate class of endings of L. If the ending is not in this class; then, the length of the assumed ending is decreased by one (accordingly, the assumed ending of the word is decreased by one symbol on the left side, and this symbol is added to the assumed stem of the word), and the received ending is searched for in the appropriate ending class until the stemming procedure is complete or the word has no ending. 
+
+The steps of the algorithm for splitting the stem and ending are as follows.
+
+1. Determine L(w).
+
+2. Determine the maximum length of an ending of the analysed word: L[e(w)]max = L(w)—2, where 2 is the minimum length of the word stem.
+
+3. If L(w) ≤ L(e)max; then, assign to L[e(w)] the value of L[e(w)]max: L[e(w)] = L[e(w)]max.
+
+4. Otherwise, assign to L[e(w)] the value of L(e)max: L[e(w)] = L(e)max.
+
+5. Select ending e(w) of length L[e(w)] for analysed word w.
+
+5. Select ending e(w) of length L[e(w)] for analysed word w.
+
+6. Check e(w) for matching with the endings from the list of endings of length L[e(w)]. If it matches, then the stem of the word is determined: st(w) = w—e(w). Go to step 9.
+
+7. Otherwise, the calculated length of the ending of the analysed word is decreased by one: L[e(w)] = L[e(w)]—1.
+
+8. If L[e(w)] < 1, then word w is without ending. Go to step 9. Otherwise, go to step 5.
+
+9. End.
+
+
