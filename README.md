@@ -47,7 +47,7 @@ After downloading 'Morphological_segmenation-for-Turkic-languages-based-on-CSE-m
 The output path you can change the file's output path to your own path.
 
 # What you need to use CSE-model
-- ending lists(all possible affixes)
-- stopwords (words that can not be segmentted or ambiguous bases)
+- ending lists(all possible affixes) (in .xlsx or .txt format)
+- stopwords (words that can not be segmentted or ambiguous bases) (in .txt format)
 
 
