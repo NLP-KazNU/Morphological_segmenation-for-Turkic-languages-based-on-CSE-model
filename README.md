@@ -42,16 +42,16 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 9. End.
 
 # What you need to use CSE-model
-- ending lists(all possible affixes) (in .xlsx or .txt format)
+- ending lists(all possible affixes) (in .xls format)
 - stopwords (words that can not be segmentted or ambiguous bases) (in .txt format)
 
 # How to use
 1. Download repository
-2. Add any Turkic language possible endinds(affixes) list with extension .xlxs or .txt 
+2. Add any Turkic language possible endinds(affixes) list with extension .xls 
 3. Add stopwords dictionary 
 4. Prepare your train.txt file, which needed to segment
 4. Run python file(.py) in any open command prompt(CMD)
-5. Save the result of CSE-segmenatation. The output path you can change the file's output path to your own path.
+5. Save the result of CSE-segmenatation into file. The output path you can change the file's output path to your own path.
 
 
 
