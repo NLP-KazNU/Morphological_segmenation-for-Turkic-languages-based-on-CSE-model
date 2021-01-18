@@ -85,6 +85,6 @@ for line in text_lines:
                 
     tmp_text_lines.append('\n')
 	
-with open("words_train_CSE2", "w", encoding="utf-8") as f:
+with open("result", "w", encoding="utf-8") as f:
     for line in tmp_text_lines:
         f.write('%s'%line)
