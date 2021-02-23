@@ -43,7 +43,7 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 
 # What you need to use CSE-model
 - ending lists(all possible affixes) (in .xls format)
-- stopwords (words that can not be segmentted or ambiguous bases) (in .txt format)
+- stems (words that can not be segmentted or ambiguous bases) (in .txt format)
 
 # How to use
 1. Download repository
