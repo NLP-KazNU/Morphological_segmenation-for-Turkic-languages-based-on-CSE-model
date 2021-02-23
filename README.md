@@ -1,4 +1,5 @@
 # CSE_morphological_segmenation
+Ualsher Tukeyev, Aidana Karibayeva
 
 This morphological segmentation algorithms can be used to other Turkic language group as they have similarity in word formation affixes types as in Kazakh language.
 
