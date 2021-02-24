@@ -54,7 +54,7 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 5. Save the result of CSE-segmenatation into file. The output path you can change the file's output path to your own path.
 
 # Related papers
-1. Ualsher Tukeyev, Aidana Karibayeva. Inferring the Complete Set of Kazakh Endings as a Language Resource. International Conference on Computational Collective Intelligence, 2020. - pp. 741-751. DOI:10.1007/978-3-030-63119-2_60
+1. Ualsher Tukeyev, Aidana Karibayeva. Inferring the Complete Set of Kazakh Endings as a Language Resource. International Conference on Computational Collective Intelligence, 2020. - pp. 741-751. DOI:10.1007/978-3-030-63119-2_60 https://books.google.kz/books?id=tDgKEAAAQBAJ&pg=PA741&lpg=PA741&dq=Inferring+the+Complete+Set+of+Kazakh+Endings+as+a+Language+Resource&source=bl&ots=jpKp3LlTsu&sig=ACfU3U3UtXnjwdUbKhivxJ3gToiHRLGTjw&hl=ru&sa=X&ved=2ahUKEwj88eTXiYLvAhWlxIsKHaNRDJo4ChDoATAAegQIARAD#v=onepage&q=Inferring%20the%20Complete%20Set%20of%20Kazakh%20Endings%20as%20a%20Language%20Resource&f=false
 2. Ualsher Tukeyev, Aidana Karibayeva and Zhandos Zhumanov. Morphological segmentation method for Turkic language neural machine translation. Cogent Engineering 7(1):1856500
 DOI: 10.1080/23311916.2020.1856500 https://www.tandfonline.com/doi/full/10.1080/23311916.2020.1856500
 
