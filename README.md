@@ -56,7 +56,7 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 # Related papers
 1. Ualsher Tukeyev, Aidana Karibayeva. Inferring the Complete Set of Kazakh Endings as a Language Resource. International Conference on Computational Collective Intelligence, 2020. - pp. 741-751. DOI:10.1007/978-3-030-63119-2_60
 2. Ualsher Tukeyev, Aidana Karibayeva and Zhandos Zhumanov. Morphological segmentation method for Turkic language neural machine translation. Cogent Engineering 7(1):1856500
-DOI: 10.1080/23311916.2020.1856500
+DOI: 10.1080/23311916.2020.1856500 https://www.tandfonline.com/doi/full/10.1080/23311916.2020.1856500
 
 
 
