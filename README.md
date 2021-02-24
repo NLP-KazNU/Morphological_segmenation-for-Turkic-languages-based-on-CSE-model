@@ -53,6 +53,9 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 4. Run python file(.py) in any open command prompt(CMD)
 5. Save the result of CSE-segmenatation into file. The output path you can change the file's output path to your own path.
 
+#Related papers
+1. U Tukeyev, A Karibayeva. Inferring the Complete Set of Kazakh Endings as a Language Resource. International Conference on Computational Collective Intelligence, 2020. - pp. 741-751
+
 
 
 
