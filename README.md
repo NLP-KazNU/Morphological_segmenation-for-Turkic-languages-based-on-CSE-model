@@ -1,5 +1,7 @@
 # CSE_morphological_segmenation
 
+The products have to use on base of Creative Commons licences, exactly, CC BY-SA (CC Attribution-Share Alike)
+
 This morphological segmentation algorithms can be used to other Turkic language group as they have similarity in word formation affixes types as in Kazakh language.
 
 Kazakh language has 4 types of affixes: number(singular,plural), possessives, cases, person. 
